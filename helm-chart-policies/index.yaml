@@ -9,6 +9,6 @@ entries:
     name: policies
     type: application
     urls:
-    - https://ch-stark.github.io/helm-acm-policies/policies-0.1.0.tgz
+    - https://ch-stark.github.io/helm-acm-policies/tree/master/helm-chart-policies/policies-0.1.0.tgz
     version: 0.1.0
 generated: "2022-10-19T11:31:36.379008227+02:00"
