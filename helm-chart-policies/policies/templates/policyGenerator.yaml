@@ -4,9 +4,10 @@ metadata:
   name: helmtest
 placementBindingDefaults:
   name:  helmtest
-placement:
-  placementName: "global-appset-policies-placement"
+
 policyDefaults:
+  placement:
+    placementName: "global-appset-policies-placement"
   configurationPolicyAnnotations: {"policy.open-cluster-management.io/disable-templates": "true"}
   categories:
     - CM Configuration Management
